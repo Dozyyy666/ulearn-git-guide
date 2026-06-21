@@ -32,7 +32,7 @@
 	cm = commit -m
 	call = !git add --all && git commit
 	calm = !git add --all && git commit -m
-	amend = git commit --amend --no-edit
+	amend = commit --amend --no-edit
 	st = status -sb
 	gr = log --graph
 	gra = log --graph --all
